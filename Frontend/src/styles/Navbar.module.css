@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    background: #2b2f77;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #56d4e5;
+  }
+  
+  .logoutButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .logoutButton:hover {
+    color: #ff6f61;
+  }
+  

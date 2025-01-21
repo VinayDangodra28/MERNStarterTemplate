@@ -1,0 +1,27 @@
+.productsContainer {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .productList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productItem {
+    background: #2b2f77;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .productItem:hover {
+    background: #56d4e5;
+  }
+  
