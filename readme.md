@@ -1,13 +1,12 @@
-
 # MERN Starter Template
 
-This project is a starter template for building web applications using the **MERN stack** (MongoDB, Express, React, and Node.js). It includes both the frontend and backend, with basic authentication and product listing functionality.
+This project is a starter template for building web applications using the **S****ERN stack (Sqlite, Express, React, and Node.js). It includes both the frontend and backend, with basic authentication and product listing functionality.**
 
 ---
 
 ## Project Structure
 
-### 1. Frontend (`/client`)
+### 1. Frontend (`/Frontend`)
 
 The frontend is built using React and includes the following features:
 
@@ -18,7 +17,7 @@ The frontend is built using React and includes the following features:
 #### Frontend Directory Structure:
 
 ```
-client/
+Frontend/
 ├── public/                  # Static files
 ├── src/
 │   ├── components/          # Reusable React components
@@ -34,7 +33,7 @@ client/
 
 1. Navigate to the `client` folder:
    ```bash
-   cd client
+   cd Frontend
    ```
 2. Install dependencies:
    ```bash
@@ -47,9 +46,9 @@ client/
 
 ---
 
-### 2. Backend (`/server`)
+### 2. Backend (`/Backend`)
 
-The backend is built using Node.js, Express, and MongoDB. It includes:
+The backend is built using Node.js, Express, and SQLite. It includes:
 
 * **Authentication** : Signup and login routes with JWT authentication.
 * **Protected Routes** : Middleware to secure product endpoints.
@@ -71,7 +70,7 @@ server/
 
 1. Navigate to the `server` folder:
    ```bash
-   cd server
+   cd Backend
    ```
 2. Install dependencies:
    ```bash
@@ -79,7 +78,6 @@ server/
    ```
 3. Create a `.env` file with the following variables:
    ```
-   MONGO_CONN=<your_mongo_connection_string>
    JWT_SECRET=<your_jwt_secret>
    PORT=8080
    ```
@@ -204,8 +202,8 @@ Fetches a list of products (protected route).
 ## Technologies Used
 
 * **Frontend** : React, React Router, Axios, CSS Modules.
-* **Backend** : Node.js, Express, Mongoose, bcrypt, JWT, Joi.
-* **Database** : MongoDB.
+* **Backend** : Node.js, Express, SQLite, sequelize, bcrypt, JWT, Joi.
+* **Database** : SQLite.
 
 ---
 
