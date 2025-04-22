@@ -7,7 +7,7 @@ This project is a starter template for building web applications using the **MER
 
 ## Project Structure
 
-### 1. Frontend (`/client`)
+### 1. Frontend (`/Frontend`)
 
 The frontend is built using React and includes the following features:
 
@@ -47,7 +47,7 @@ client/
 
 ---
 
-### 2. Backend (`/server`)
+### 2. Backend (`/Backend`)
 
 The backend is built using Node.js, Express, and MongoDB. It includes:
 
@@ -58,7 +58,7 @@ The backend is built using Node.js, Express, and MongoDB. It includes:
 #### Backend Directory Structure:
 
 ```
-server/
+Backend/
 ├── controllers/            # Business logic (e.g., AuthController)
 ├── middlewares/            # Reusable middleware (e.g., Auth.js)
 ├── models/                 # Mongoose schemas (e.g., User.js)
@@ -69,9 +69,9 @@ server/
 
 #### Backend Setup:
 
-1. Navigate to the `server` folder:
+1. Navigate to the `Backend` folder:
    ```bash
-   cd server
+   cd Backend
    ```
 2. Install dependencies:
    ```bash
