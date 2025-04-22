@@ -1,10 +1,12 @@
-const mongoose = require('mongoose');
+const { Sequelize } = require('sequelize');
 
-const mongo_url = process.env.MONGO_CONN;
+const sequelize = new Sequelize({
+    dialect: 'sqlite',
+    storage: './database.sqlite' // SQLite file location
+});
 
-mongoose.connect(mongo_url)
-    .then(() => {
-        console.log('MongoDB Connected...');
-    }).catch((err) => {
-        console.log('MongoDB Connection Error: ', err);
-    })
+sequelize.authenticate()
+    .then(() => console.log('SQLite connected.'))
+    .catch((err) => console.error('Connection error:', err));
+
+module.exports = sequelize;
